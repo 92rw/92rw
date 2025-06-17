@@ -1,14 +1,14 @@
 ### Hi there 👋
 
-I'm looking for job as Back-End developer.
-
 <!--
 **92rw/92rw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
+-->
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
+- 🔭 I’m currently working as IT Engineer in Japan.
+- 🌱 I’m currently learning Front-End Framework.
+<!--
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
@@ -29,18 +29,19 @@ Here are some ideas to get you started:
 
 ```java
 public class AboutMe {
-    private String educationBackground = "Bachelor's Degree in Tongji University, Shanghai";
-    
+    private String currentLocation = "Tokyo, Japan";
+
     private String[] skills = new String[]{
-            "Java", "MySQL", "SpringBoot", "Git", "Linux", "MyBatis"
+            "Java", "SpringBoot", "MySQL", "Git", "Linux", "MyBatis",
+			"Junit", "JSP", "RESTful API", "Excel", "SVFX-Designer";
     };
 
     private AboutMe(){};
     
     private static AboutMe info = new AboutMe();
 
-    public String getEducationBackground() {
-        return info.educationBackground;
+    public String getCurrentLocation() {
+        return info.currentLocation;
     }
 
     public String[] getSkills() {
